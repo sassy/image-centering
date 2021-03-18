@@ -1,0 +1,10 @@
+.wrapper {
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-boxの領域を高さ全体に広げないと align-items が期待通りに動かない */
+    height: 100%;
+}
